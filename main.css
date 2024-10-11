@@ -1,0 +1,59 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #3a1b37;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #412034;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-vinhos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler  {
+    background-color: #ffeae6;
+}
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #vinhos {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #52354d;
+}
+
+.nav-vinhos .nav-link.active,
+#fale-conosco button {
+    background-color: #412034;
+    color: #fff;
+}
+
+.nav-vinhos .nav-link:hover {
+    color: #412034;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carrousel-item img {
+        height: 280px;  
+    }
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+        <h1 class="navbar-brand m-0 section-title">Adega Ebac</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-o-restaurante" class="nav-link">
+                        <i class="bi bi-trophy me-1"></i>
+                        Sobre a adega
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#eventos" class="nav-link">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Eventos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#vinhos" class="nav-link">
+                        <i class="bi bi-card-text me-1"></i>
+                        Vivhos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold" >
+                    <a href="#fale-conosco" class="nav-link">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Fale conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slide1.jpeg" alt="Espaço externo" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide2.jpg" alt="Espaço interno" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide3.jpg" alt="Fabríca" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carrousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carrousel-control-prev-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+        </section>
+    </div>
+
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/Adega.jpg" class="d-block w-100 rounded"  alt="foto do espaço interno da adega">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a adega</span></h2>
+                        <p>
+                            Os vinhos da Adega ebac são elaborados com uvas de alta qualidade, provenientes de um terroir propício para a produção de vinhos finos. É uma região privilegiada, caracterizada pela amplitude térmica, marcada pelos dias quentes e noites frias.
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p>
+                            Descubra os segredos da arte de fazer vinho com experiencias de degustação únicas e musica ao vivo todos os dias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+            </div>
+            <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="images/aniversario.jpg" class="d-block w-100 rounded mb-2" alt="">
+                <h3 class="section-title text-colored fs-4">
+                    <i class="bi bi-calendar-heart-fill"></i>
+                    Aniversários</h3>
+                <p>
+                    Este espaço foi especialmente projetado para criar momentos inesquecíveis. Com um ambiente amplo e acolhedor, o local é perfeito para comemorações de aniversário de todas as idades. Conta com uma decoração moderna e versátil, adaptável a diversos temas e estilos de festa.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/casamento.jpg" class="d-block w-100 rounded mb-2" alt="">
+                <h3 class="section-title text-colored fs-4">
+                    <i class="bi bi-arrow-through-heart-fill"></i>
+                    Recepção para casamentos</h3>
+                <p>
+                    Seja um casamento intimista ou uma grande celebração, nosso espaço foi cuidadosamente pensado para criar o cenário perfeito para o seu "sim". Combinando elegância e conforto, o local oferece tudo o que você precisa para um dia inesquecível, desde áreas ao ar livre com vistas deslumbrantes até ambientes internos sofisticados.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/confraternizacoes.jpg" class="d-block w-100 rounded mb-2" alt="">
+                <h3 class="section-title text-colored fs-4">
+                    <i class="bi bi-people-fill"></i>
+                    Confraternização</h3>
+                <p>
+                    Nosso espaço é perfeito para celebrações especiais e confraternizações, oferecendo um ambiente descontraído e agradável, ideal para reunir amigos, colegas de trabalho ou familiares. Com uma estrutura completa e adaptável para diferentes tipos de eventos, garantimos uma experiência marcante e envolvente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vinhos" class="pt-5 pb-5">
+        <div clas="container>">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">vinhos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <asside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-vinhos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tinto" class="fw-bold text-start nav-link text-colored active">Tinto</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#branco" class="fw-bold text-start nav-link text-colored">Branco</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tose" class="fw-bold text-start nav-link text-colored">Rosé</button>
+                    </asside>
+                    <div class="col-md-10">
+                        </div class="tab-content">
+                            </div class="tab-pene active" id="tinto">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/saperavi.jpg" alt="tinto" />
+                                        <h5 class="text-colored fw bold mt-2">Saperavi</h5>
+                                        <p>
+                                            A uva Saperavi, soberana entre as variedades georgianas, inspira a criação de um vinho verdadeiramente majestoso. Durante doze meses de envelhecimento em barricas de carvalho americano
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/gran-rserva.png" alt="tinto" />
+                                        <h5 class="text-colored fw bold">Gran reserva</h5>
+                                        <p>
+                                            Com coloração rubi intenso, apresenta aromas de intensidade média alta, lembrando frutas negras maduras, especiarias, cravo, eucalipto, notas de madeira tostada, café e chocolate. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div class="tab-pene" id="branco">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/bandeira.png" alt="branco" />
+                                        <h5 class="text-colored fw bold mt-2">Bandeira</h5>
+                                        <p>
+                                            Pito Bandeira, na Serra Gaúcha, é a segunda região demarcada a conquistar Indicação de Procedência (IP) no Brasil. Pela sua altitude, 730 metros do nível do mar, tem uma vocação natural para cultivo de uvas brancas. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/reserva.png" alt="branco" />
+                                        <h5 class="text-colored fw bold">Reserva</h5>
+                                        <p>
+                                            Um vinho muito agradável. Leve, acidez e aromas frutados equilibrados. Sabor amanteigado, baunilha e coco são o resultado da passagem por barricas de carvalho francês.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div class="tab-pene" id="rose">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/procedencias.jpg" alt="rose" />
+                                        <h5 class="text-colored fw bold mt-2">Procedências</h5>
+                                        <p>
+                                            elaborado de maneira tradicional, com as melhores uvas da Serra Gaúcha e criado especialmente para quem quer descobrir um novo mundo de sabores e o terroir da região.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/mascatel.png" alt="rose" />
+                                        <h5 class="text-colored fw bold">Mascatel</h5>
+                                        <p>
+                                            Apresenta uma bela coloração rosa salmão. No aroma é elegante lembrando frutas tropicais como lichia. Tem notas de morango e framboesa, com toques florais e um leve adocicado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <diV class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua Acácias n° 364, Bairro Novo Riacho - Contagem - MG 
+                            </p>
+                        </div>
+                    </diV>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Rodrigo Francis - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  ></script>
+</html>
